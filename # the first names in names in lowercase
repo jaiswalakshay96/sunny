@@ -1,0 +1,5 @@
+# the first names in names in lowercase.
+names = ["Rick Sanchez", "Morty Smith", "Summer Smith", "Jerry Smith", "Beth Smith"]
+
+first_names =[(name.split()[0]).lower() + " " + (name.split()[1]) for name in names] # write your list comprehension here
+print(first_names)
