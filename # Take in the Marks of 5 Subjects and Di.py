@@ -13,7 +13,7 @@ for i in range(5):
         gra = 'B'
     elif a[i] >=50 and a[i]<60:
         gra = 'C'
-    elif a[i] >=60 and a[i]<80:
+    elif a[i] >=40 and a[i]<50:
         gra = 'D'
     else :
         gra = 'F'
